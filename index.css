@@ -68,7 +68,6 @@ img {
     background:  rgb(212, 221, 224);
     width: 20%;
     box-shadow: 2px 2px 8px rgba(0,0,0,.1);
-    font-family: sans-serif;
   }
   .category-wrap h3 {
     font-size: 18px;
@@ -78,7 +77,6 @@ img {
     position: relative;
   }
   .category-wrap h3:after {
-    content: "";
     width: 6px;
     height: 6px;
     background: #80C8A0;
@@ -104,8 +102,6 @@ img {
     transition: .3s linear;
   }
   .category-wrap a:after {
-    content:"\f18e";
-    font-family: FontAwesome;
     position: absolute;
     right: 5px;
     color: rgb(80, 161, 91);
